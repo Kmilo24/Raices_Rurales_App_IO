@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct EditLog: View {
+    @State private var username = ""
+    @State private var password = ""
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading){
+            Text("EMAIL")
+                .padding()
+            
+        }
     }
 }
 
-#Preview {
-    EditLog()
+struct EditLog_Previews: PreviewProvider {
+    static var previews: some View {
+        EditLog()
+    }
 }

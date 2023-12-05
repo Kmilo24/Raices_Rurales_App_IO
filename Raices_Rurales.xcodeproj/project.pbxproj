@@ -14,6 +14,7 @@
 		26B3F5502B1E2F4500319D7C /* Raices_RuralesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3F54F2B1E2F4500319D7C /* Raices_RuralesTests.swift */; };
 		26B3F55A2B1E2F4500319D7C /* Raices_RuralesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3F5592B1E2F4500319D7C /* Raices_RuralesUITests.swift */; };
 		26B3F55C2B1E2F4500319D7C /* Raices_RuralesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3F55B2B1E2F4500319D7C /* Raices_RuralesUITestsLaunchTests.swift */; };
+		26FB928D2B1EAE3400FCDEE9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FB928C2B1EAE3400FCDEE9 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		26B3F5552B1E2F4500319D7C /* Raices_RuralesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Raices_RuralesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B3F5592B1E2F4500319D7C /* Raices_RuralesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raices_RuralesUITests.swift; sourceTree = "<group>"; };
 		26B3F55B2B1E2F4500319D7C /* Raices_RuralesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raices_RuralesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26FB928C2B1EAE3400FCDEE9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../../Downloads/logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				26B3F53E2B1E2F4300319D7C /* Raices_RuralesApp.swift */,
 				26B3F5402B1E2F4300319D7C /* ContentView.swift */,
 				26B3F5422B1E2F4500319D7C /* Assets.xcassets */,
+				26FB928B2B1EAE1A00FCDEE9 /* img */,
 				26B3F5442B1E2F4500319D7C /* Preview Content */,
 			);
 			path = Raices_Rurales;
@@ -125,6 +128,14 @@
 				26B3F55B2B1E2F4500319D7C /* Raices_RuralesUITestsLaunchTests.swift */,
 			);
 			path = Raices_RuralesUITests;
+			sourceTree = "<group>";
+		};
+		26FB928B2B1EAE1A00FCDEE9 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				26FB928C2B1EAE3400FCDEE9 /* logo.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			files = (
 				26B3F5462B1E2F4500319D7C /* Preview Assets.xcassets in Resources */,
 				26B3F5432B1E2F4500319D7C /* Assets.xcassets in Resources */,
+				26FB928D2B1EAE3400FCDEE9 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
